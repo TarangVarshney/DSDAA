@@ -3,6 +3,12 @@ package com.tarang.dsdaa.searching;
 import java.util.Scanner;
 import java.util.stream.Stream;
 
+
+/*
+ * time complexity O(n)
+ * Less used practically than others as binary search and hash table
+ * 
+ */
 public class LinearSearch {
 	
 	static int linearSearch(String[] arr, int key){
@@ -21,7 +27,7 @@ public class LinearSearch {
 		System.out.println("Enter numbers ");
 		Scanner sc = new Scanner(System.in);
 		String line = sc.nextLine();
-		String[] arr = line.split(" ");
+		String[] arr = line.split("\\s+");
 		
 		System.out.println("Enter key you want to search :");
 		int key = sc.nextInt();
