@@ -4,8 +4,11 @@ import java.util.Scanner;
 import java.util.stream.Stream;
 
 /*
- * Worst and Average Case Time Complexity: O(n*n). Worst case occurs when array is reverse sorted.
- *	Best Case Time Complexity: O(n). Best case occurs when array is already sorted.
+ * Worst and Average Case Time Complexity: O(n2). Worst case occurs when array is reverse sorted.
+ * Best Case Time Complexity: O(n). Best case occurs when array is already sorted.
+ * 
+ * Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent 
+ * elements if they are in wrong order.
  */
 public class BubbleSort {
 	

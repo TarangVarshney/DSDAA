@@ -3,6 +3,11 @@ package com.tarang.dsdaa.sorting;
 import java.util.Scanner;
 import java.util.stream.Stream;
 
+/*
+ * Time Complexity: O(n2)
+ * The selection sort algorithm sorts an array by repeatedly finding the minimum element 
+ * (considering ascending order) from unsorted part and putting it at the beginning. 
+ */
 public class SelectionSort {
 	
 	public static void main(String[] args) {

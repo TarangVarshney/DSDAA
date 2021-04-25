@@ -50,7 +50,7 @@ public class MergeSort {
 		}
 	}
 
-	// Merges two subarrays of arr[].First subarray is arr[l..m]
+	// Merges two subarrays of arr[]. First subarray is arr[l..m]
     // Second subarray is arr[m+1..r]
 	private static void merge(int[] arr, int l, int mid, int r) {
 		
